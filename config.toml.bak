@@ -1,0 +1,21 @@
+# 服务设置
+[server]
+    name = "web-room"
+    addr = ":8080"
+
+# 设置日志模式
+[server.logger]
+    level = "debug"
+
+# 数据结构类
+[database]
+    driver = "mysql"
+
+# 数据结构配置
+[mysql]
+    dbHost = "127.0.0.1"
+    dbPort = "3306"
+    dbName = "数据库名"
+    dbParams = "parseTime=true&loc=Local&charset=utf8"
+    dbUser = "数据库用户名"
+    dbPasswd = "数据库密码"

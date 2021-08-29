@@ -1,0 +1,3 @@
+/assets/*
+go.sum
+access.log
